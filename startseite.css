@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+.nav {
+    background-color: darkorange;
+    height: 60px;
+}
+
+.logo {
+    padding: 10px;
+    float: left;
+    height: 40px;
+}
+
+ul {
+    margin: 11px;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    padding-top: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
